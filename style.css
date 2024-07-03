@@ -48,6 +48,7 @@ body {
   top: 0;
   left: 0;
   right: 0;
+  bottom: 0;
   background-color: #fff;
   display: flex;
   flex-direction: column;
@@ -1644,5 +1645,12 @@ footer {
   }
   .main_text {
     font-size: 8px;
+  }
+  .main_email_button {
+    padding: 10px;
+    font-size: 7px;
+  }
+  .main_email_input_box input {
+    width: 100px;
   }
 }
